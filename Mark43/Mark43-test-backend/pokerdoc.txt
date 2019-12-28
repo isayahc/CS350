@@ -1,0 +1,159 @@
+NAME
+    poker
+
+CLASSES
+    builtins.object
+        Game
+        Hand
+    collections.abc.Sequence(collections.abc.Reversible, collections.abc.Collection)
+        card
+
+    class Game(builtins.object)
+     |  Game(n)
+     |
+     |  Methods defined here:
+     |
+     |  __init__(self, n)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+    class Hand(builtins.object)
+     |  Hand(a, b, c)
+     |
+     |  Methods defined here:
+     |
+     |  Flush(self)
+     |
+     |  IspairSuite(self)
+     |
+     |  Ispairsrank(self)
+     |
+     |  Pair(self)
+     |
+     |  Straight(self)
+     |
+     |  StraightFlush(self)
+     |
+     |  ThreeOfKind(self)
+     |
+     |  ValidRun(self)
+     |
+     |  Winrar(self)
+     |
+     |  __init__(self, a, b, c)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |
+     |  all_equal(self, iter)
+     |
+     |  all_equal_ranks(self)
+     |
+     |  all_equal_suits(self)
+     |
+     |  cardtotal(self)
+     |
+     |  getcards(self)
+     |
+     |  getdictionary(self)
+     |
+     |  getranks(self)
+     |
+     |  getsuits(self)
+     |
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+    class card(collections.abc.Sequence)
+     |  card(n)
+     |
+     |  All the operations on a read-only sequence.
+     |
+     |  Concrete subclasses must override __new__ or __init__,
+     |  __getitem__, and __len__.
+     |
+     |  Method resolution order:
+     |      card
+     |      collections.abc.Sequence
+     |      collections.abc.Reversible
+     |      collections.abc.Collection
+     |      collections.abc.Sized
+     |      collections.abc.Iterable
+     |      collections.abc.Container
+     |      builtins.object
+     |
+     |  Methods defined here:
+     |
+     |  Keyval(self)
+     |
+     |  __getitem__(self, i)
+     |
+     |  __init__(self, n)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |
+     |  __len__(self)
+     |
+     |  getcard(self)
+     |
+     |  getrank(self)
+     |
+     |  getsuite(self)
+     |
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |
+     |  __abstractmethods__ = frozenset()
+     |
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from collections.abc.Sequence:
+     |
+     |  __contains__(self, value)
+     |
+     |  __iter__(self)
+     |
+     |  __reversed__(self)
+     |
+     |  count(self, value)
+     |      S.count(value) -> integer -- return number of occurrences of value
+     |
+     |  index(self, value, start=0, stop=None)
+     |      S.index(value, [start, [stop]]) -> integer -- return first index of value.
+     |      Raises ValueError if the value is not present.
+     |
+     |      Supporting start and stop arguments is optional, but
+     |      recommended.
+     |
+     |  ----------------------------------------------------------------------
+     |  Class methods inherited from collections.abc.Reversible:
+     |
+     |  __subclasshook__(C) from abc.ABCMeta
+     |      Abstract classes can override this to customize issubclass().
+     |
+     |      This is invoked early on by abc.ABCMeta.__subclasscheck__().
+     |      It should return True, False or NotImplemented.  If it returns
+     |      NotImplemented, the normal algorithm is used.  Otherwise, it
+     |      overrides the normal algorithm (and the outcome is cached).
+
+FILE
+    d:\ubuntu\fall2019\mark43\mark43-test-backend\poker.py

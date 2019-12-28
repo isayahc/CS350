@@ -1,0 +1,1 @@
+[{'name': 'Boiling Water', 'Temperature': '100', 'Pressure': '10.251'}, {'name': 'Warm Water Bath ', 'Temperature': '73.09', 'Pressure': '102.20'}, {'name': 'Air', 'Temperature': '26.3', 'Pressure': '141.87'}, {'name': 'Ice Bath', 'Temperature': '15.5', 'Pressure': '101.62'}, {'name': '-72', 'Temperature': '-72', 'Pressure': '101.0'}]

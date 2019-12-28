@@ -1,0 +1,25 @@
+1a True
+1b False
+1c False
+1d False
+1e False
+1f True 
+
+2. Sequence
+3.Selection
+5.I like to drink water
+I like to drink orange juice
+I like to drink tea
+I like to drink coffee
+I like to drink milk
+
+8.
+9.
+0,2,4,6,8,10
+10. [3, 9, 15, 21, 27]
+11. peanut butter
+sugar
+banana
+strawberry
+
+12.

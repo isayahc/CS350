@@ -1,0 +1,20 @@
+/*
+Error 1:
+result[n[i]]=q1[i]+q2[i]+q3[i]/3; 
+This is an error because of order of operations 
+
+Error2:
+for (var i=1; i<n.length; i++) 
+The iterator should start at the 0th position
+
+Error3:
+Quiz2 and Quiz3 was missing data. The only way for 
+Nicholas' average grade to be 100 is for all quizes to 
+equate to 100.
+
+
+
+
+
+*/
+  
